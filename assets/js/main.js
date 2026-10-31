@@ -31,7 +31,7 @@
     { nome: "Sistema bancário", desc: "Console em Java com validação de CPF, BigDecimal para dinheiro e testes automatizados.", tags: ["Java 17", "Maven", "JUnit 5"], code: GH + "ProjetoFinal" },
     { nome: "Folha de pagamento", desc: "Modelo de funcionários com herança, classes abstratas e polimorfismo.", tags: ["Java 17", "Maven", "JUnit 5"], code: GH + "Trabalho" },
     { nome: "Janela de login", desc: "Tela de login em Swing com a senha guardada como hash PBKDF2 e sal aleatório.", tags: ["Java Swing", "Segurança", "JUnit 5"], code: GH + "java" },
-    { nome: "NOVA DESCENT", desc: "Jogo de nave 2D com 3 fases, chefão, modo cooperativo e ranking.", tags: ["Python", "Pygame"], code: GH + "PyGame" }
+    { nome: "NOVA DESCENT", desc: "Jogo de nave 2D com 3 fases, chefão, modo cooperativo e ranking. Versão original em Pygame e versão jogável no navegador (canvas), com toque no celular.", tags: ["Python", "Pygame", "Canvas", "JavaScript"], code: GH + "PyGame", live: PAGES + "PyGame/" }
   ];
 
   /* ---------- Campo de pontos no hero ---------- */
