@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Gabriel Wiedenhoft</title>
+  <meta name="description" content="Portfólio de Gabriel Wiedenhoft, estudante de Ciência da Computação em busca de estágio em desenvolvimento e IA. Projetos em Java, Python e web.">
+  <meta name="theme-color" content="#f0f0ec">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;500;600&family=Geist+Mono:wght@400;500&family=Pixelify+Sans:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Ir para o conteúdo</a>
+
+  <header class="nav">
+    <div class="wrap nav__in">
+      <a class="logo" href="#topo" aria-label="Gabriel Wiedenhoft, início">gw</a>
+      <nav aria-label="Principal">
+        <ul class="nav__links">
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero" id="topo">
+      <canvas id="field" aria-hidden="true"></canvas>
+      <div class="wrap hero__in">
+        <h1 class="display">Gabriel<br>Wiedenhoft</h1>
+        <p class="lead">Estudante de Ciência da Computação em busca de estágio em desenvolvimento e IA.</p>
+        <a class="btn btn--ink" href="#projetos">Ver projetos</a>
+      </div>
+    </section>
+
+    <section class="work" id="projetos" aria-labelledby="proj-t">
+      <div class="work__pin">
+        <div class="wrap work__head">
+          <h2 id="proj-t" class="display h2">Projetos</h2>
+          <p>Código aberto, com testes automatizados e README em cada repositório.</p>
+        </div>
+        <div class="work__view">
+          <ul class="work__track" id="track"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="about wrap" id="sobre" aria-labelledby="sobre-t">
+      <h2 id="sobre-t" class="display h2">Aprendo construindo.</h2>
+      <div class="about__body">
+        <p>Estudo Ciência da Computação em Canoas, RS, e trabalho com suporte e monitoria de sistemas na Linx desde 2025. Tenho formação técnica em Análise e Desenvolvimento de Sistemas.</p>
+        <p>Procuro um estágio em desenvolvimento de software, com interesse em IA generativa e em aplicações que usam APIs de modelos de linguagem.</p>
+        <div class="stack">
+          <section aria-labelledby="s1">
+            <h3 id="s1" class="label">Linguagens</h3>
+            <ul class="tags"><li>Java</li><li>Python</li><li>PHP</li><li>JavaScript</li><li>HTML e CSS</li></ul>
+          </section>
+          <section aria-labelledby="s2">
+            <h3 id="s2" class="label">Dados</h3>
+            <ul class="tags"><li>SQL Server</li><li>MySQL</li><li>MongoDB</li></ul>
+          </section>
+          <section aria-labelledby="s3">
+            <h3 id="s3" class="label">Ferramentas</h3>
+            <ul class="tags"><li>Git e GitHub</li><li>GitHub Actions</li><li>Maven</li><li>JUnit</li><li>Laravel</li></ul>
+          </section>
+        </div>
+      </div>
+    </section>
+
+    <section class="contact" id="contato" aria-labelledby="cont-t">
+      <div class="wrap contact__in">
+        <h2 id="cont-t" class="display contact__h">Tem uma vaga de estágio ou uma ideia?</h2>
+        <a class="btn btn--accent btn--lg" href="https://www.linkedin.com/in/gabriel-wiedenhoft-machado" rel="noopener">Falar no LinkedIn</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="foot">
+    <div class="wrap foot__in">
+      <p>Feito à mão com HTML, CSS e JavaScript.</p>
+      <p><a href="https://github.com/Gabrielmachado01gg" rel="noopener">github.com/Gabrielmachado01gg</a></p>
+    </div>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
