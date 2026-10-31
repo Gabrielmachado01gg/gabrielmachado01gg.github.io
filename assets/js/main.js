@@ -25,6 +25,7 @@
   var PROJECTS = [
     { nome: "Fio", desc: "Landing de IA para documentos, com pixel art gerada em canvas e cartões empilhados no scroll.", tags: ["HTML", "CSS", "JavaScript", "GSAP"], code: GH + "fio", live: PAGES + "fio/" },
     { nome: "Casca", desc: "Garrafa térmica fictícia desenhada em canvas, que se abre em camadas conforme o scroll.", tags: ["Canvas", "CSS", "JavaScript", "GSAP"], code: GH + "casca", live: PAGES + "casca/" },
+    { nome: "Comanda", desc: "Agentes de IA para atendimento de delivery: triagem, tool calling, guardrails, avaliação, API, chat de demonstração e fluxo n8n.", tags: ["Python", "LLM", "Agentes", "n8n"], code: GH + "comanda", live: PAGES + "comanda/" },
     { nome: "Cobalto", desc: "Loja de roupas fictícia em azul, com tecido simulado em tempo real (Verlet 3D em canvas, sem bibliotecas).", tags: ["Canvas", "Física", "CSS", "JavaScript"], code: GH + "cobalto", live: PAGES + "cobalto/" },
     { nome: "Yume Sushi", desc: "Site responsivo e acessível de restaurante japonês, sem frameworks e com verificação automática.", tags: ["HTML", "CSS", "JavaScript"], code: GH + "Site_web", live: PAGES + "Site_web/" },
     { nome: "Sistema bancário", desc: "Console em Java com validação de CPF, BigDecimal para dinheiro e testes automatizados.", tags: ["Java 17", "Maven", "JUnit 5"], code: GH + "ProjetoFinal" },
